@@ -93,17 +93,7 @@ function showRepos(repos) {
             <ion-icon name="star-outline"></ion-icon> ${repo.watchers_count}
             <ion-icon name="git-branch-outline"></ion-icon> ${repo.forks_count}
             </p>
-        </div>
-        <div class="repo">
-            <div class="repo_name">
-            <a href="#">${repo.name}</a>
-            </div>
-            <p>
-            <span class="circle"></span> ${repo.language}
-            <ion-icon name="star-outline"></ion-icon> ${repo.watchers_count}
-            <ion-icon name="git-branch-outline"></ion-icon> ${repo.forks_count}
-            </p>
-        </div>      
+        </div>    
        `
     }
     document.querySelector('.repos').innerHTML = newHTML;
